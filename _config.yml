@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Oh,Saviour
+title: Oh,Saviour,你太遥远
 subtitle:
-description:前端学习记录
+description: 前端学习记录
 author: Jocelyn
-language:zh-CN
-timezone:
+language: zh-CN
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,11 +63,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: modernist
+theme: kael
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:git
-  repo:git@github.com:jocelyn24/jocelyn.github.io.git
-  branch:masters
+  type: git
+  repository: https://github.com/jocelyn24/jocelyn24.github.io.git
+  branch: master
